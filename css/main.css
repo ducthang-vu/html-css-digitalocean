@@ -161,6 +161,12 @@ header .btn.btn-default {
 }
 
 
+/* DESIGNED */
+#designed {
+  padding: 15px 0;
+}
+
+
 
 /* RESPONSIVE */
 @media screen and (max-width: 991px) {

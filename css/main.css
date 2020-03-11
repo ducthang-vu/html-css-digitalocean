@@ -6,7 +6,9 @@
 
 /*  GENERAL */
 body {
+  background: #fff;
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 
   /* General: BUTTON *  */
@@ -30,6 +32,10 @@ a:visited,
 
 .darkblue {
   background: #0069ff;
+}
+
+.gray {
+  background: #f3f5f9;
 }
 
 .white {
@@ -104,4 +110,64 @@ header .btn.btn-default {
 #jumbotron .form a {
   text-decoration: underline;
   color: #0248ff;
+}
+
+
+/* INNOVATIVE-BUSINESS */
+#innovative-business li > img {
+  height: 78px;
+}
+
+#innovative-business li:last-child > img {
+  height: 35px;
+}
+
+
+/* DEPLOY */
+#deploy .row ul {
+  display: inline-block;
+  padding: 0 10px;
+  border-left: 2px solid gray;
+  line-height: 200%;
+  color: gray;
+  font-size: 20px;
+}
+
+#deploy .row {
+  padding: 25px 0;
+}
+
+#deploy .row:first-child p {
+  padding: 0 15%;
+}
+
+#deploy-contents-row {
+  width: 90%;
+}
+
+#deploy-contents-row> * {
+  padding: 10px 0;
+}
+
+#deploy-contents-row .col-lg-6 {
+  margin-bottom: 25px;
+  font-size: 14px;
+
+}
+
+#deploy-contents-row .col-lg-6 p {
+  color: gray;
+}
+
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 991px) {
+  #deploy .row .col-lg-4 {
+    text-align: left;
+  }
+
+  #deploy-contents-row {
+    width: 100%;
+  }
 }

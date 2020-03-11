@@ -142,6 +142,7 @@ header .btn.btn-default {
 }
 
 #deploy-contents-row {
+  margin: 0 auto;
   width: 90%;
 }
 

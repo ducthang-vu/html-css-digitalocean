@@ -156,24 +156,41 @@
       <section id="designed" class="gray">
         <div class="container text-center">
           <!-- Section header row -->
-          <div class="row">
-            <h2>Designed for developers</h2>
+          <div class="row header-section">
+            <h1>Designed for developers</h1>
             <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
           </div>
 
           <!-- Section contents row -->
-          <div class="row">
+          <div class="row content-row">
             <div class="col-lg-6 col-lg-offset-3">
-              <img class="img-responsive" src="assets/create-droplet.jpg" alt="img">
-              <p>Create compute servers in 55 seconds or less.</p>
-              <div class="dots">
-                <i class="far fa-circle"></i>
-                <i class="far fa-circle"></i>
-                <i class="far fa-circle"></i>
-                <i class="far fa-circle"></i>
+              <div class="main-content">
+                <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
+
+                  <button type="button" name="button" class="nav-arrow left hidden-sm hidden-xs">
+                    <i class="fas fa-chevron-left"></i>
+                  </button>
+
+                  <img class="img-responsive" src="assets/create-droplet.jpg" alt="img">
+
+                  <button type="button" name="button" class="nav-arrow right hidden-sm hidden-xs">
+                    <i class="fas fa-chevron-right"></i>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
+          <div class="row">
+            <h4>Create compute servers in 55 seconds or less.</h4>
+            <div class="nav-radio">
+              <input type="radio" id="radio-2-1" name="radio-2-set" class="regular-radio" checked/><label for="radio-2-1"></label>
+
+              <input type="radio" id="radio-2-2" name="radio-2-set" class="regular-radio"/><label for="radio-2-2"></label>
+
+              <input type="radio" id="radio-2-3" name="radio-2-set" class="regular-radio"/><label for="radio-2-3"></label>
+
+              <input type="radio" id="radio-2-4" name="radio-2-set" class="regular-radio"/><label for="radio-2-4"></label>
+            </div>
         </div>
       </section>
 
@@ -287,7 +304,7 @@
       </section>
 
       <!-- DEVELOPMENTS section -->
-      <section id="developments">
+      <section id="developments" class="gray text-center">
         <div class="container text-center">
           <!-- Section header row -->
           <div class="row">
@@ -296,31 +313,38 @@
 
           <!-- Section contents row -->
           <div class="row">
-            <div class="col-lg-6 col-lg-offset-3">
-              <div class="box">
-                <div class="main-content">
-                  <div class="col-lg-1 col-md-1 col-sm-1">
+            <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3">
+              <div class="main-content">
+                <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
+
+                  <button type="button" name="button" class="nav-arrow left hidden-sm hidden-xs">
                     <i class="fas fa-chevron-left"></i>
-                  </div>
-                  <div class="col-lg-10 col-md-10 col-sm-10">
+                  </button>
+
+                  <div class="core-content white">
                     <img class="img-responsive" src="assets/rockerbox-logo.png" alt="img">
+                    <p class="text-gray" >"We have been able to make scaling the technical infrastructure of our business cost effective and efficient"</p>
+                    <div class="signature">
+                      <p>Rick O'Toole</p>
+                      <p>Co-founder and CTO</p>
+                    </div>
+                    <a href="#">Read story</a>
                   </div>
-                  <div class="col-lg-1 col-md-1 col-sm-1">
+
+                  <button type="button" name="button" class="nav-arrow right hidden-sm hidden-xs">
                     <i class="fas fa-chevron-right"></i>
-                  </div>
+                  </button>
                 </div>
-                <p>"We have been able to make scaling the technical infrastructure of our business cost effective and efficient"</p>
-                <div class="signature">
-                  <p>Rick O'Toole</p>
-                  <p>Co-founder and CTO</p>
-                </div>
-                <a href="#">Read story</a>
               </div>
-              <div class="dots">
-                <i class="far fa-circle"></i>
-                <i class="far fa-circle"></i>
-                <i class="far fa-circle"></i>
-              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="nav-radio">
+              <input type="radio" id="radio-2-2-1" name="radio-2-set-2" class="regular-radio" checked/><label for="radio-2-2-1"></label>
+
+              <input type="radio" id="radio-2-2-2" name="radio-2-set-2" class="regular-radio"/><label for="radio-2-2-2"></label>
+
+              <input type="radio" id="radio-2-2-3" name="radio-2-set-2" class="regular-radio"/><label for="radio-2-2-3"></label>
             </div>
           </div>
         </div>
@@ -337,13 +361,12 @@
           </div>
         </div>
       </section>
-
     </main>
 
     <footer class="darkblue">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-md-12">
+          <div class="col-lg-4 col-md-12 logo">
             <img class="img-responsive" src="assets/logo-small.svg" alt="">
             <p>&copy; 2018 DigitalOcean, LLC. All rights reserved.</p>
             <p>Proudly made in NY</p>

@@ -62,7 +62,7 @@ a:visited,
 
 .nav-arrow i {
   position: absolute;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, 10%);
 }
 
 .nav-arrow.left {
@@ -319,6 +319,10 @@ header .btn:hover {
 /* DEVELOPMENTS */
 #developments {
   padding: 35px 0;
+}
+
+#developments .row:first-child {
+  margin-bottom: 45px;
 }
 
 .core-content {

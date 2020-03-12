@@ -36,26 +36,30 @@ a:visited,
   background: #fff;
 }
 
+.text-white {
+  color: #fff;
+}
+
 .relative {
   position: relative;
 }
 
 
 /* HEADER */
-header .container img {
-  height: 65px;   /* all elements inside the header is max height max 65px */
+header .container [class*="col-"] {
+  padding: 16px 0;  /* all elements inside the header is max height max 28px */
 }
 
-header .container [class*="col-"]:not(:first-child) {
-  padding: 16px 0;
+header .container img {
+  height: 28px;
 }
 
 header .icon {
   position: absolute;
   left: 100%;
-  top: 13%;
+  top: 14%;
   transform: translateX(-50%);
-  font-size: 250%;
+  font-size: 200%;
 }
 
 header .btn.btn-default {
@@ -68,7 +72,6 @@ header .btn.btn-default {
 #jumbotron {
   background-image: url('../assets/bg-banner-home.jpg');
   background-size: cover;
-  color: #fff;
   padding: 30px 0;
 }
 
@@ -87,7 +90,12 @@ header .btn.btn-default {
   margin-bottom: 10px;
 }
 
+#jumbotron .form h3 {
+  font-weight: 800;
+}
+
 #jumbotron .form h3:nth-child(2){
+  margin: 15px 0;
   color: #0248ff;
 }
 
@@ -95,10 +103,20 @@ header .btn.btn-default {
   width: 100%;
 }
 
+#jumbotron .form button.btn-primary {
+  border: #1E90FF;
+  background: #1E90FF;
+}
+
 #jumbotron .form button img {
   position: absolute;
   left: 12px;
   height: 20px;
+}
+
+#jumbotron .form p {
+  padding-top: 5px;
+  font-size: 10px;
 }
 
 #jumbotron .form a {
@@ -198,7 +216,6 @@ header .btn.btn-default {
 /* SERVICE */
 #service {
   padding: 35px 0;
-  color: #fff
 }
 
 #service td:nth-child(2) {
@@ -228,7 +245,6 @@ header .btn.btn-default {
 /* GET-STARTED*/
 #get-started {
   padding: 35px 0;
-  color: #fff;
 }
 
 #get-started button {
@@ -242,10 +258,6 @@ footer {
   font-size: 12px;
   color: gray;
   padding: 25px 0;
-}
-
-footer h5 {
-  color: #fff;
 }
 
 footer .col-lg-4 * {
@@ -320,9 +332,7 @@ footer .list-unstyled li {
   height: 35px;
   border: 5px solid #fff;
   background: red;
-  text-align: center;
   line-height: 200%;
-  color: #fff;
 }
 
 
@@ -331,6 +341,7 @@ footer .list-unstyled li {
 @media screen and (max-width: 991px) {
   #deploy .row .col-lg-4 {
     text-align: left;
+    padding-left: 30px;
   }
 
   #deploy-contents-row {

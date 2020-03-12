@@ -68,6 +68,10 @@ header .btn.btn-default {
   color: #0248ff;
 }
 
+header .btn:hover {
+  color: #0248ff;
+}
+
 
 /* JUMBOTRON */
 #jumbotron {
@@ -138,16 +142,12 @@ header .btn.btn-default {
 
 
 /* INNOVATIVE-BUSINESS */
+#innovative-business h2 {
+  opacity: 0.5;
+}
+
 #innovative-business {
   padding: 30px 0;
-}
-
-#innovative-business li > img {
-  height: 78px;
-}
-
-#innovative-business li:last-child > img {
-  height: 35px;
 }
 
 #innovative-business a {
@@ -354,7 +354,39 @@ footer .list-unstyled li {
 
 
 /* RESPONSIVE */
+@media screen and (min-width: 992px) {
+  #innovative-business .row {
+    margin-bottom: 12px;
+  }
+
+  #innovative-business .row img:not(#splunk-logo) {
+    padding-right: 5px;
+    height: 78px;
+  }
+
+  #splunk-logo {
+    height: 35px;
+  }
+}
+
+
 @media screen and (max-width: 991px) {
+
+  /* INNOVATIVE-BUSINESS */
+  #innovative-business .row {
+    margin: 35px auto;
+    width: 560px;
+  }
+
+
+  #innovative-business .row img {
+    padding: 0 35px;
+    width: 277px;
+    height: auto;
+  }
+
+
+  /* DEPLOY */
   #deploy .row .col-lg-4 {
     text-align: left;
     padding-left: 30px;
@@ -364,11 +396,16 @@ footer .list-unstyled li {
     width: 100%;
   }
 
+  /* FOOTER */
+  footer {
+    padding-bottom: 55px;
+  }
+
+
+  /* HELP */
   #help {
     left: 25px;
   }
 
-  footer {
-    padding-bottom: 55px;
-  }
+
 }

@@ -44,6 +44,10 @@ a:visited,
   color: gray;
 }
 
+.padding-top-bottom-35 {
+  padding: 35px 0;
+}
+
 .relative {
   position: relative;
 }
@@ -252,10 +256,6 @@ header .btn:hover {
 
 
 /* DESIGNED */
-#designed {
-  padding: 35px 0;
-}
-
 #designed .header-section p {
   margin: 25px 0 55px 0;
   color: gray;
@@ -269,10 +269,6 @@ header .btn:hover {
 
 
 /* FEATURES */
-#feature {
-  padding: 35px 0;
-}
-
 #feature .row {
   padding-top: 25px;
 }
@@ -292,10 +288,11 @@ header .btn:hover {
 }
 
 
-
 /* SERVICE */
-#service {
-  padding: 35px 0;
+#service h2 {
+  margin: auto;
+  padding-bottom: 15px;
+  width: 70%;
 }
 
 #service td:nth-child(2) {
@@ -308,19 +305,13 @@ header .btn:hover {
   color: blue;
 }
 
-#service td:last-child::after {
+#service td:last-child a::after {
   padding-left: 10px;
   content: '\003E';
 }
 
 
-
-
 /* DEVELOPMENTS */
-#developments {
-  padding: 35px 0;
-}
-
 #developments .row:first-child {
   margin-bottom: 45px;
 }
@@ -344,7 +335,7 @@ header .btn:hover {
 
 .core-content .signature {
   margin: 5px 0;
-  color: black;
+  color: #000;
 }
 
 .core-content .signature p {
@@ -375,10 +366,6 @@ header .btn:hover {
 
 
 /* GET-STARTED*/
-#get-started {
-  padding: 35px 0;
-}
-
 #get-started button {
   margin: 15px;
   color: blue;
@@ -526,6 +513,4 @@ footer .list-unstyled li {
   #help {
     left: 25px;
   }
-
-
 }

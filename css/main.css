@@ -69,6 +69,10 @@ a:visited,
   transform: translate(-50%, 10%);
 }
 
+.nav-arrow:focus {
+  outline: 0;
+}
+
 .nav-arrow.left {
   left: -5%;
   color: gray;
@@ -368,7 +372,7 @@ header .btn:hover {
 /* GET-STARTED*/
 #get-started button {
   margin: 15px;
-  color: blue;
+  color: #0248ff;
 }
 
 
@@ -443,7 +447,6 @@ footer .list-unstyled li {
 #help button.shark:focus {
   outline: 0;
 }
-
 
 #help .circle {
   position: absolute;

@@ -47,6 +47,7 @@ a:visited,
 
 /* HEADER */
 header .container [class*="col-"] {
+
   padding: 16px 0;  /* all elements inside the header is max height max 28px */
 }
 
@@ -75,8 +76,15 @@ header .btn.btn-default {
   padding: 30px 0;
 }
 
+#jumbotron .col-lg-7 h1 {
+  font-size: 45px;
+  padding-right: 15%;
+}
+
+
 #jumbotron .col-lg-7 p {
-  opacity: 0.7;
+  font-size: 20px;
+  opacity: 0.8;
 }
 
   /* Jumbotron: FORM */
@@ -114,6 +122,10 @@ header .btn.btn-default {
   height: 20px;
 }
 
+#jumbotron .form button.btn.btn-default {
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
 #jumbotron .form p {
   padding-top: 5px;
   font-size: 10px;
@@ -126,6 +138,10 @@ header .btn.btn-default {
 
 
 /* INNOVATIVE-BUSINESS */
+#innovative-business {
+  padding: 30px 0;
+}
+
 #innovative-business li > img {
   height: 78px;
 }

@@ -108,8 +108,7 @@ a:visited,
 
 /* HEADER */
 header .container [class*="col-"] {
-
-  padding: 16px 0;  /* all elements inside the header is max height max 28px */
+  padding: 16px 0;
 }
 
 header .container img {
@@ -118,7 +117,7 @@ header .container img {
 
 header .icon {
   position: absolute;
-  left: 100%;
+  left: 98%;
   top: 14%;
   transform: translateX(-50%);
   font-size: 200%;
@@ -303,6 +302,10 @@ header .btn:hover {
   width: 70%;
 }
 
+#service tbody tr:first-child {
+  border-top: none;
+}
+
 #service td:nth-child(2) {
   color: gray;
 }
@@ -382,7 +385,7 @@ header .btn:hover {
 
 /* FOOTER */
 footer {
-  font-size: 12px;
+  font-size: 14px;
   color: gray;
   padding: 25px 0;
 }
@@ -468,6 +471,13 @@ footer .list-unstyled li {
 
 
 /* RESPONSIVE */
+
+@media screen and (max-width: 1199px) {
+  footer .col-lg-6 > .col-lg-3 {
+    padding-left: 0;
+  }
+}
+
 @media screen and (min-width: 992px) {
   #innovative-business .row {
     margin-bottom: 12px;
@@ -515,7 +525,6 @@ footer .list-unstyled li {
   footer {
     padding-bottom: 55px;
   }
-
 
   /* HELP */
   #help {

@@ -277,6 +277,10 @@ header .btn:hover {
   padding-top: 25px;
 }
 
+#feature .row .col-lg-4 {
+  padding-bottom: 45px;
+}
+
 #feature h4 {
   padding-top: 10px;
   font-weight: 800;
@@ -485,13 +489,14 @@ footer .list-unstyled li {
   /* INNOVATIVE-BUSINESS */
   #innovative-business .row {
     margin: 35px auto;
-    width: 560px;
+    max-width: 560px;
   }
 
 
   #innovative-business .row img {
     padding: 0 35px;
     width: 277px;
+    max-width: 45%;
     height: auto;
   }
 
@@ -515,5 +520,13 @@ footer .list-unstyled li {
   /* HELP */
   #help {
     left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  #service .table tbody {
+    font-size: 12px;
+    }
   }
 }

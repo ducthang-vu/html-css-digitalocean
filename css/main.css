@@ -535,6 +535,5 @@ footer .list-unstyled li {
 @media screen and (max-width: 420px) {
   #service .table tbody {
     font-size: 12px;
-    }
   }
 }

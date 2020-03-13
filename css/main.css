@@ -211,7 +211,6 @@ header .btn:hover {
 }
 #innovative-business .row li > img {
   max-width: 100%;
-  max-height: auto;
 }
 
 #innovative-business a {
@@ -505,6 +504,10 @@ footer .list-unstyled li {
     width: calc((100% / 2) - 40px);
     vertical-align: middle;
     margin: 10px;
+  }
+
+  #innovative-business .row li:nth-child(n + 5) {
+    margin-top: 20px;
   }
 
   /* DEPLOY */
